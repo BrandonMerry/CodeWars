@@ -31,3 +31,9 @@ function litres(time) {
   function positiveSum(arr) {
     return arr.filter(x => x > 0).reduce((a, b) => a+b, 0);
   }
+
+  // return the negative of a number 
+
+  function makeNegative(num) {
+    return Math.abs(num) * -1
+ }
